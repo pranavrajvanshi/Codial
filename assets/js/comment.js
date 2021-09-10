@@ -61,7 +61,7 @@ let createComment = function(event,self,temp){
 
 function deleteComment(event){
     event.preventDefault();
-    console.log("falak in deletecomment");
+    console.log("pranav in deletecomment");
     console.log(this);
     let pathurl = $(this).attr("href");
     $.ajax({
