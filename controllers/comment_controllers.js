@@ -44,7 +44,7 @@ module.exports.createComment = async function (req, res) {
 };
 
 module.exports.deleteComment = async function (req, res) {
-  console.log("************ falak **************");
+  console.log("************ pranav **************");
   try {
     let comment = await Comment.findById(req.params.id);
 
