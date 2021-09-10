@@ -172,33 +172,11 @@ module.exports.create = function (req, res) {
   });
 };
 
-// manual auth
-// module.exports.createSession = function(req,res){
-
-//     User.findOne({email:req.body.email}, function(error,user){
-//         if(error){
-//             console.log("error in signin");
-//             return;
-//         }
-//         if(user){
-//             if(user.password == req.body.password){
-//                 // cookie is sent to browser by server
-//                 res.cookie('user_id',user.id);
-//                 return res.redirect('/users/profile');
-//             }else{
-//                 return res.redirect('back');
-//             }
-//         }
-//         else{
-//             return res.redirect('back');
-//         }
-//     });
-// }
 
 // using passport
 module.exports.createSession = function (req, res) {
   // console.log(req.cookies);
-  console.log("falak");
+  console.log("pranav");
   if (req) {
     req.flash("success", "Logged in successfully"); ///////////////////////////////////doubt
   }
