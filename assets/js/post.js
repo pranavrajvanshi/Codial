@@ -67,7 +67,7 @@ let newpost = function(post, user){
 
 function deletePost(event){
     let temp = this;
-    console.log("falak in deletepost");
+    console.log("pranav in deletepost");
     event.preventDefault();
     // console.log(event);
     console.log(temp);
