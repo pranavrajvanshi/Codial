@@ -1,5 +1,5 @@
 {
-  "name": "codial",
+  "name": "chatbook",
   "version": "1.0.0",
   "description": "my all social media website",
   "main": "server.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "social"
   ],
-  "author": "falak",
+  "author": "pranav",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
