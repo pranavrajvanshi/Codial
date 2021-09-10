@@ -86,31 +86,9 @@ app.use(passport.setAuthUser); // set users for views
 
 app.use(flash()); // send in session-cookie and erased after refresh
 
-// app.use(function(req,res,next){
-//     console.log(req.session);
-//     // console.log(req.url);
-//     // console.log(req.falak);
-//     // console.log(req.flash('success'));
-//     // console.log(req.flash('success'));
-//     // console.log(res.locals.flash);
-//     // console.log("***********************");
-//     next();
-
-// });
-
 app.use(flashMiddleware.setFlash);
 
 // use express router
-
-// app.use(function(req,res,next){
-//     // console.log(req.session);
-//     // console.log(req.falak);
-//     // console.log(req.flash('success'));
-//     // console.log(res.locals.flash);
-//     // console.log("***********************");
-//     next();
-
-// });
 
 app.use("/", require("./routes/index"));
 
